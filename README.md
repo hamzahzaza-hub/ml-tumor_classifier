@@ -16,6 +16,10 @@ The notebook explains **every import and every function** step by step, so it ca
 
 Lowering the decision threshold to 10% catches **100%** of the malignant tumors in the test set. The cost is more false alarms (precision drops to 66.7%).
 
+![Model comparison](images/model_comparison.png)
+
+![Confusion matrix](images/confusion_matrix.png)
+
 ## Dataset
 
 **Breast Cancer Wisconsin (Diagnostic)**, which comes with scikit-learn (`load_breast_cancer`), so no download is needed.
